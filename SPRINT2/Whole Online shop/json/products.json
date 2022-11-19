@@ -1,5 +1,6 @@
-{
-    "camisetas":[
+[
+    {   "category":"Camisetas",
+        "camisetas":[
         {
             "id": 1,
             "price": 20
@@ -24,8 +25,9 @@
             "id": 6,
             "price": 50
         }
-    ],
-    "pantalones":[
+    ]},
+    {   "category": "Pantalones",
+        "pantalones":[
         {
             "id": 1,
             "price": 30
@@ -50,8 +52,9 @@
             "id": 6,
             "price": 100
         }
-    ],
-    "playeras":[
+    ]},
+    {   "category": "Playeras",
+        "playeras":[
         {
             "id": 1,
             "price": 80
@@ -76,8 +79,9 @@
             "id": 6,
             "price": 50
         }
-    ],
-    "calcetines":[
+    ]},
+    {   "category": "Calcetines",
+        "calcetines":[
         {
             "id": 1,
             "price": 10
@@ -102,8 +106,9 @@
             "id": 6,
             "price": 3
         }
-    ],
-    "sudaderas":[
+    ]},
+    {   "category": "Sudaderas",
+        "sudaderas":[
         {
             "id": 1,
             "price": 50
@@ -128,8 +133,9 @@
             "id": 6,
             "price": 30
         }
-    ],
-    "chaquetas":[
+    ]},
+    {   "category": "Chaquetas",
+        "chaquetas":[
         {
             "id": 1,
             "price": 80
@@ -154,5 +160,5 @@
             "id": 6,
             "price": 50
         }
-    ]
-}
+    ]}
+]
