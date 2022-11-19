@@ -5,6 +5,7 @@ function loadData(){
     http.onload = function(){
         if(this.readyState == 4 && this.status == 200){
             let products = JSON.parse(this.responseText);
+
             //Load Categories.
             for (let i = 1; i < 7; i++){
                 document.getElementById('category-space'+i).innerHTML +=`
@@ -54,7 +55,6 @@ function loadData(){
             }
 
             //Load Recent Products
-            
             for (let i = 1; i < 7; i++){
                 document.getElementById("recent-"+i).innerHTML += `
                 <div class="product-item bg-light mb-4">
@@ -96,6 +96,13 @@ function loadData(){
                         <a href="" class="btn btn-primary">Entra</a>
                     </div>
                 </div>
+                `
+            }
+
+            //Load Navbar categories
+            for(let i = 1; i < 7; i++){
+                document.getElementById("navbar-category-"+i).innerHTML += `
+                    ${products[i-1].category}
                 `
             }
         }
