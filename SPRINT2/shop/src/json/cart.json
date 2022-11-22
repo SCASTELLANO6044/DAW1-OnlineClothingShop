@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Camiseta Gucci Negra",
+        "price": "20",
+        "quantity": 1,
+        "imgPath": "assets/img/product-1.jpg"
+    },
+    {
+        "name": "Camiseta Nasa",
+        "price": "20",
+        "quantity": 2,
+        "imgPath": "assets/img/product-2.jpg"
+    },
+    {
+        "name": "Pantalón Element Negro",
+        "price": "30",
+        "quantity": 1,
+        "imgPath": "assets/img/product-3.jpg"
+    },
+    {
+        "name": "Nike AF1 Blanco",
+        "price": "80",
+        "quantity": 1,
+        "imgPath": "assets/img/product-4.jpg"
+    },
+    {
+        "name": "Vans OldSkool Negro",
+        "price": "80",
+        "quantity": 3,
+        "imgPath": "assets/img/product-5.jpg"
+    }
+]

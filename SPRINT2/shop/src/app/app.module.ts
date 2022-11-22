@@ -7,6 +7,8 @@ import { ShopComponent } from './modules/shop/shop.component';
 import { DetailComponent } from './modules/detail/detail.component';
 import { ContactComponent } from './modules/contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ShoppingCartComponent } from './modules/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './modules/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     ShopComponent,
     DetailComponent,
-    ContactComponent
+    ContactComponent,
+    ShoppingCartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,

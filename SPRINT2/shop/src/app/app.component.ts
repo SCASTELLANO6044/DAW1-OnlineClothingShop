@@ -14,4 +14,6 @@ export class AppComponent {
   constructor() {
     this.allCategories = categories;
   }
+
+  
 }
