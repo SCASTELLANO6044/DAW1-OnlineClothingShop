@@ -196,31 +196,55 @@
             {
                 "id": 1,
                 "price": 10,
+                "previousPrice": 30,
+                "valoration": 4,
+                "numberOfValorations": 100,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/calcetines/1.jpg"
             },
             {
                 "id": 2,
                 "price": 3,
+                "previousPrice": 5,
+                "valoration": 2,
+                "numberOfValorations": 10,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/calcetines/2.jpg"
             },
             {
                 "id": 3,
                 "price": 5,
+                "previousPrice": 15,
+                "valoration": 5,
+                "numberOfValorations": 180,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/calcetines/3.jpg"
             },
             {
                 "id": 4,
                 "price": 6,
+                "previousPrice": 14,
+                "valoration": 4,
+                "numberOfValorations": 210,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/calcetines/4.jpg"
             },
             {
                 "id": 5,
                 "price": 8,
+                "previousPrice": 12,
+                "valoration": 2,
+                "numberOfValorations": 65,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/calcetines/5.jpg"
             },
             {
                 "id": 6,
                 "price": 3,
+                "previousPrice": 5,
+                "valoration": 2,
+                "numberOfValorations": 285,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/calcetines/6.jpg"
             }
         ]
@@ -231,31 +255,55 @@
             {
                 "id": 1,
                 "price": 50,
+                "previousPrice": 55,
+                "valoration": 5,
+                "numberOfValorations": 340,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/sudaderas/1.jpg"
             },
             {
                 "id": 2,
                 "price": 70,
+                "previousPrice": 85,
+                "valoration": 4,
+                "numberOfValorations": 150,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/sudaderas/2.jpg"
             },
             {
                 "id": 3,
                 "price": 90,
+                "previousPrice": 100,
+                "valoration": 4,
+                "numberOfValorations": 77,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/sudaderas/3.jpg"
             },
             {
                 "id": 4,
                 "price": 55,
+                "previousPrice": 58,
+                "valoration": 5,
+                "numberOfValorations": 50,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/sudaderas/4.jpg"
             },
             {
                 "id": 5,
                 "price": 70,
+                "previousPrice": 88,
+                "valoration": 3,
+                "numberOfValorations": 99,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/sudaderas/5.jpg"
             },
             {
                 "id": 6,
                 "price": 30,
+                "previousPrice": 50,
+                "valoration": 2,
+                "numberOfValorations": 65,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/sudaderas/6.jpg"
             }
         ]
@@ -266,31 +314,55 @@
             {
                 "id": 1,
                 "price": 80,
+                "previousPrice": 95,
+                "valoration": 5,
+                "numberOfValorations": 160,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/chaquetas/1.jpg"
             },
             {
                 "id": 2,
                 "price": 70,
+                "previousPrice": 85,
+                "valoration": 4,
+                "numberOfValorations": 540,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/chaquetas/2.jpg"
             },
             {
                 "id": 3,
                 "price": 83,
+                "previousPrice": 95,
+                "valoration": 5,
+                "numberOfValorations": 140,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/chaquetas/3.jpg"
             },
             {
                 "id": 4,
                 "price": 90,
+                "previousPrice": 95,
+                "valoration": 5,
+                "numberOfValorations": 66,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/chaquetas/4.jpg"
             },
             {
                 "id": 5,
                 "price": 120,
+                "previousPrice": 150,
+                "valoration": 5,
+                "numberOfValorations": 80,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/chaquetas/5.jpg"
             },
             {
                 "id": 6,
                 "price": 50,
+                "previousPrice": 65,
+                "valoration": 5,
+                "numberOfValorations": 45,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
                 "imgPath": "assets/img/chaquetas/6.jpg"
             }
         ]
