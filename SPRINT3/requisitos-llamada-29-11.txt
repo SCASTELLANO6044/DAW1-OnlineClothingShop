@@ -3,8 +3,8 @@ backend con ruby on rails debe ser admin.
 
 
 1. Acceder al JSON mediante AJAX
-2. Genreado por RoR accediendp ala BD
+2. Generado por RoR accediendo a la BD
 3. Funcionamiento normal
 
-BAckend RoR debe ser admin
+Backend RoR debe ser admin
 
