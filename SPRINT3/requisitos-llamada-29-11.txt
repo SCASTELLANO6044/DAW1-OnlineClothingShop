@@ -1,0 +1,10 @@
+acceder a json mediante AJAX (ruby on rails)
+backend con ruby on rails debe ser admin.
+
+
+1. Acceder al JSON mediante AJAX
+2. Genreado por RoR accediendp ala BD
+3. Funcionamiento normal
+
+BAckend RoR debe ser admin
+

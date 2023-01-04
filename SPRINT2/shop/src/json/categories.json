@@ -1,0 +1,388 @@
+[
+    {
+        "name": "camisetas",      
+        "products": [
+            {
+                "id": 1,
+                "name": "Camiseta Gucci Negra",
+                "previousPrice": 30,
+                "price": 20,
+                "valoration": 5,
+                "numberOfValorations": 35,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/camisetas/1.jpg"
+            },
+            {
+                "id": 2,
+                "name":"Camiseta Gucci Azul",
+                "previousPrice": 30,
+                "price": 20,
+                "valoration": 4,
+                "numberOfValorations": 22,
+                "availableSizes": ["XS", "S", "M", "L"],
+                "imgPath": "assets/img/camisetas/2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Camiseta Gucci Verde",
+                "price": 20,
+                "valoration": 3,
+                "numberOfValorations": 18,
+                "availableSizes": ["S", "M", "L"],
+                "imgPath": "assets/img/camisetas/3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Camiseta Gucci Rosa",
+                "previousPrice": 12.99,
+                "price": 9.99,
+                "valoration": 4,
+                "numberOfValorations": 8,
+                "availableSizes": ["L", "XL"],
+                "imgPath": "assets/img/camisetas/4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Camiseta Nasa",
+                "previousPrice": 30,
+                "price": 20,
+                "valoration": 4,
+                "numberOfValorations": 23,
+                "availableSizes": ["S", "M", "L"],
+                "imgPath": "assets/img/camisetas/5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Camiseta GRN CST",
+                "previousPrice": 70,
+                "price": 50,
+                "valoration": 5,
+                "numberOfValorations": 30,
+                "availableSizes": ["L", "XL"],
+                "imgPath": "assets/img/camisetas/6.jpg"
+            }
+        ]
+    },
+    {
+        "name": "pantalones",
+        "products": [
+            {
+                "id": 1,
+                "name": "Pantalón Element Negro",
+                "previousPrice": 40,
+                "price": 30,
+                "valoration": 5,
+                "numberOfValorations": 52,
+                "availableSizes": ["XS", "L", "XL"],
+                "imgPath": "assets/img/pantalones/1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Pantalón Vaquero Costuras",
+                "price": 10,
+                "valoration": 3,
+                "numberOfValorations": 23,
+                "availableSizes": ["S", "L", "XL"],
+                "imgPath": "assets/img/pantalones/2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Pantalón Hurley Negro",
+                "previousPrice": 50,
+                "price": 40,
+                "valoration": 5,
+                "numberOfValorations": 32,
+                "availableSizes": ["S", "M", "L"],
+                "imgPath": "assets/img/pantalones/1.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Pantalón Calvin Klein Negro",
+                "price": 100,
+                "valoration": 4,
+                "numberOfValorations": 62,
+                "availableSizes": ["L", "XL"],
+                "imgPath": "assets/img/pantalones/1.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Pantalón DC Negro",
+                "previousPrice": 22.99,
+                "price": 14.99,
+                "valoration": 2,
+                "numberOfValorations": 5,
+                "availableSizes": ["XS", "S", "M"],
+                "imgPath": "assets/img/pantalones/1.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Pantalón Billabong Negro",
+                "previousPrice": 30,
+                "price": 20,
+                "valoration": 1,
+                "numberOfValorations": 1,
+                "availableSizes": ["XS", "XL"],
+                "imgPath": "assets/img/pantalones/1.jpg"
+            }
+        ]
+    },
+    {
+        "name": "playeras",
+        "products": [
+            {
+                "id": 1,
+                "name": "Nike AF1 Blanco",
+                "previousPrice": 110,
+                "price": 80,
+                "valoration": 5,
+                "numberOfValorations": 132,
+                "availableSizes": ["39", "40", "41", "42", "43"],
+                "imgPath": "assets/img/playeras/1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Nike Run Verde",
+                "previousPrice": 110,
+                "price": 100,
+                "valoration": 5,
+                "numberOfValorations": 85,
+                "availableSizes": ["39", "40", "41", "42", "43", "44", "45"],
+                "imgPath": "assets/img/playeras/2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Nike SB Negro",
+                "previousPrice": 95,
+                "price": 65,
+                "valoration": 4,
+                "numberOfValorations": 63,
+                "availableSizes": ["39", "40", "41", "42"],
+                "imgPath": "assets/img/playeras/3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Vans OldSkool Negro",
+                "price": 80,
+                "valoration": 4,
+                "numberOfValorations": 428,
+                "availableSizes": ["36", "37", "38", "39", "40", "41", "42", "43"],
+                "imgPath": "assets/img/playeras/4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Adidas Superstar Blanco",
+                "previousPrice": 120,
+                "price": 90,
+                "valoration": 4,
+                "numberOfValorations": 362,
+                "availableSizes": ["39", "40", "41", "42", "43"],
+                "imgPath": "assets/img/playeras/5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Adidas X Blanco",
+                "previousPrice": 90,
+                "price": 50,
+                "valoration": 3,
+                "numberOfValorations": 28,
+                "availableSizes": ["35", "36", "37", "38", "39", "40"],
+                "imgPath": "assets/img/playeras/6.jpg"
+            }
+        ]
+    },
+    {
+        "name": "calcetines",
+        "products": [
+            {
+                "id": 1,
+                "name": "calcetines adidas",
+                "price": 10,
+                "previousPrice": 30,
+                "valoration": 4,
+                "numberOfValorations": 100,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/calcetines/1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "calcetines correos",
+                "price": 3,
+                "previousPrice": 5,
+                "valoration": 2,
+                "numberOfValorations": 10,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/calcetines/2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "calcetines arco iris",
+                "price": 5,
+                "previousPrice": 15,
+                "valoration": 5,
+                "numberOfValorations": 180,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/calcetines/3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "calcetines perros",
+                "price": 6,
+                "previousPrice": 14,
+                "valoration": 4,
+                "numberOfValorations": 210,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/calcetines/4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "calcetines deportivos",
+                "price": 8,
+                "previousPrice": 12,
+                "valoration": 2,
+                "numberOfValorations": 65,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/calcetines/5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "calcetines versace",
+                "price": 3,
+                "previousPrice": 5,
+                "valoration": 2,
+                "numberOfValorations": 285,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/calcetines/6.jpg"
+            }
+        ]
+    },
+    {
+        "name": "sudaderas",
+        "products": [
+            {
+                "id": 1,
+                "name": "sudadera verde",
+                "price": 50,
+                "previousPrice": 55,
+                "valoration": 5,
+                "numberOfValorations": 340,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/sudaderas/1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "sudadera nude",
+                "price": 70,
+                "previousPrice": 85,
+                "valoration": 4,
+                "numberOfValorations": 150,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/sudaderas/2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "sudadera nude blanca",
+                "price": 90,
+                "previousPrice": 100,
+                "valoration": 4,
+                "numberOfValorations": 77,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/sudaderas/3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "sudadera thraser",
+                "price": 55,
+                "previousPrice": 58,
+                "valoration": 5,
+                "numberOfValorations": 50,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/sudaderas/4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "sudadera thraser naranja",
+                "price": 70,
+                "previousPrice": 88,
+                "valoration": 3,
+                "numberOfValorations": 99,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/sudaderas/5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "sudadera negra",
+                "price": 30,
+                "previousPrice": 50,
+                "valoration": 2,
+                "numberOfValorations": 65,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/sudaderas/6.jpg"
+            }
+        ]
+    },
+    {
+        "name": "chaquetas",
+        "products": [
+            {
+                "id": 1,
+                "name": "chaqueta negra",
+                "price": 80,
+                "previousPrice": 95,
+                "valoration": 5,
+                "numberOfValorations": 160,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/chaquetas/1.jpg"
+            },
+            {
+                "id": 2,
+                "name": "chaqueta negra polar",
+                "price": 70,
+                "previousPrice": 85,
+                "valoration": 4,
+                "numberOfValorations": 540,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/chaquetas/2.jpg"
+            },
+            {
+                "id": 3,
+                "name": "chaqueta verde",
+                "price": 83,
+                "previousPrice": 95,
+                "valoration": 5,
+                "numberOfValorations": 140,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/chaquetas/3.jpg"
+            },
+            {
+                "id": 4,
+                "name": "chaqueta azul",
+                "price": 90,
+                "previousPrice": 95,
+                "valoration": 5,
+                "numberOfValorations": 66,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/chaquetas/4.jpg"
+            },
+            {
+                "id": 5,
+                "name": "chaqueta roja",
+                "price": 120,
+                "previousPrice": 150,
+                "valoration": 5,
+                "numberOfValorations": 80,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/chaquetas/5.jpg"
+            },
+            {
+                "id": 6,
+                "name": "chaqueta de cuero",
+                "price": 50,
+                "previousPrice": 65,
+                "valoration": 5,
+                "numberOfValorations": 45,
+                "availableSizes": ["XS", "S", "M", "L", "XL"],
+                "imgPath": "assets/img/chaquetas/6.jpg"
+            }
+        ]
+    }
+]
