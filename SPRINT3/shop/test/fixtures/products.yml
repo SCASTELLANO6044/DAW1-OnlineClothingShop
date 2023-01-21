@@ -2,18 +2,20 @@
 
 one:
   name: MyString
-  previousPrice: 1.5
+  previous_price: 1.5
   price: 1.5
   valoration: 1.5
-  nomberOfValorations: 1.5
-  availableSizes: MyString
-  imgPath: MyString
+  number_of_valorations: 1.5
+  available_sizes: MyString
+  img_path: MyString
+  category: one
 
 two:
   name: MyString
-  previousPrice: 1.5
+  previous_price: 1.5
   price: 1.5
   valoration: 1.5
-  nomberOfValorations: 1.5
-  availableSizes: MyString
-  imgPath: MyString
+  number_of_valorations: 1.5
+  available_sizes: MyString
+  img_path: MyString
+  category: two
