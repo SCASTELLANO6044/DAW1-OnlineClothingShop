@@ -17,15 +17,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_18_205947) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "product_carts", force: :cascade do |t|
-    t.string "name"
-    t.float "price"
-    t.integer "quantity"
-    t.string "imgPath"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.float "previousPrice"
