@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  previousPrice: 1.5
+  price: 1.5
+  valoration: 1.5
+  nomberOfValorations: 1.5
+  availableSizes: MyString
+  imgPath: MyString
+
+two:
+  name: MyString
+  previousPrice: 1.5
+  price: 1.5
+  valoration: 1.5
+  nomberOfValorations: 1.5
+  availableSizes: MyString
+  imgPath: MyString
