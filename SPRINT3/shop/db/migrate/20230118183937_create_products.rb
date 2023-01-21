@@ -8,7 +8,7 @@ class CreateProducts < ActiveRecord::Migration[7.0]
       t.float :numberOfValorations
       t.string :availableSizes
       t.string :imgPath
-      t.integer :category_id
+      t.references :category, null: false, foreign_key: true
 
       t.timestamps
     end
