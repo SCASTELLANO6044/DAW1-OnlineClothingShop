@@ -934,7 +934,7 @@
 								"$ref": "AAAAAAGF1XthQiMbYKk="
 							},
 							"name": "price",
-							"type": "DOUBLE",
+							"type": "FLOAT",
 							"length": 0
 						},
 						{
@@ -944,7 +944,8 @@
 								"$ref": "AAAAAAGF1XthQiMbYKk="
 							},
 							"name": "discount",
-							"type": "DOUBLE"
+							"type": "FLOAT",
+							"length": 0
 						},
 						{
 							"_type": "ERDColumn",
