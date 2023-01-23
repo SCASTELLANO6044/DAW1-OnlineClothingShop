@@ -14,14 +14,16 @@ class ProductsTest < ApplicationSystemTestCase
     visit products_url
     click_on "New product"
 
-    fill_in "Available sizes", with: @product.available_sizes
-    fill_in "Category", with: @product.category_id
+    fill_in "Available size", with: @product.available_size
+    fill_in "Description", with: @product.description
+    fill_in "Discount", with: @product.discount
     fill_in "Img path", with: @product.img_path
     fill_in "Name", with: @product.name
     fill_in "Number of valorations", with: @product.number_of_valorations
     fill_in "Previous price", with: @product.previous_price
     fill_in "Price", with: @product.price
-    fill_in "Valoration", with: @product.valoration
+    fill_in "Uuid", with: @product.uuid
+    fill_in "Valorations", with: @product.valorations
     click_on "Create Product"
 
     assert_text "Product was successfully created"
@@ -32,14 +34,16 @@ class ProductsTest < ApplicationSystemTestCase
     visit product_url(@product)
     click_on "Edit this product", match: :first
 
-    fill_in "Available sizes", with: @product.available_sizes
-    fill_in "Category", with: @product.category_id
+    fill_in "Available size", with: @product.available_size
+    fill_in "Description", with: @product.description
+    fill_in "Discount", with: @product.discount
     fill_in "Img path", with: @product.img_path
     fill_in "Name", with: @product.name
     fill_in "Number of valorations", with: @product.number_of_valorations
     fill_in "Previous price", with: @product.previous_price
     fill_in "Price", with: @product.price
-    fill_in "Valoration", with: @product.valoration
+    fill_in "Uuid", with: @product.uuid
+    fill_in "Valorations", with: @product.valorations
     click_on "Update Product"
 
     assert_text "Product was successfully updated"

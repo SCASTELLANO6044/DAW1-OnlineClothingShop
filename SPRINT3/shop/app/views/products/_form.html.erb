@@ -12,13 +12,18 @@
   <% end %>
 
   <div>
+    <%= form.label :uuid, style: "display: block" %>
+    <%= form.number_field :uuid %>
+  </div>
+
+  <div>
     <%= form.label :name, style: "display: block" %>
     <%= form.text_field :name %>
   </div>
 
   <div>
-    <%= form.label :previous_price, style: "display: block" %>
-    <%= form.text_field :previous_price %>
+    <%= form.label :description, style: "display: block" %>
+    <%= form.text_field :description %>
   </div>
 
   <div>
@@ -27,8 +32,18 @@
   </div>
 
   <div>
-    <%= form.label :valoration, style: "display: block" %>
-    <%= form.text_field :valoration %>
+    <%= form.label :discount, style: "display: block" %>
+    <%= form.text_field :discount %>
+  </div>
+
+  <div>
+    <%= form.label :previous_price, style: "display: block" %>
+    <%= form.text_field :previous_price %>
+  </div>
+
+  <div>
+    <%= form.label :valorations, style: "display: block" %>
+    <%= form.text_field :valorations %>
   </div>
 
   <div>
@@ -37,18 +52,13 @@
   </div>
 
   <div>
-    <%= form.label :available_sizes, style: "display: block" %>
-    <%= form.text_field :available_sizes %>
+    <%= form.label :available_size, style: "display: block" %>
+    <%= form.text_field :available_size %>
   </div>
 
   <div>
     <%= form.label :img_path, style: "display: block" %>
     <%= form.text_field :img_path %>
-  </div>
-
-  <div>
-    <%= form.label :category_id, style: "display: block" %>
-    <%= form.text_field :category_id %>
   </div>
 
   <div>
