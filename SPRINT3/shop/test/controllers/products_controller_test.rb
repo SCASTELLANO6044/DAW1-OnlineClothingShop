@@ -17,7 +17,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create product" do
     assert_difference("Product.count") do
-      post products_url, params: { product: { available_sizes: @product.available_sizes, category_id: @product.category_id, img_path: @product.img_path, name: @product.name, number_of_valorations: @product.number_of_valorations, previous_price: @product.previous_price, price: @product.price, valoration: @product.valoration } }
+      post products_url, params: { product: { available_size: @product.available_size, description: @product.description, discount: @product.discount, img_path: @product.img_path, name: @product.name, number_of_valorations: @product.number_of_valorations, previous_price: @product.previous_price, price: @product.price, uuid: @product.uuid, valorations: @product.valorations } }
     end
 
     assert_redirected_to product_url(Product.last)
@@ -34,7 +34,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update product" do
-    patch product_url(@product), params: { product: { available_sizes: @product.available_sizes, category_id: @product.category_id, img_path: @product.img_path, name: @product.name, number_of_valorations: @product.number_of_valorations, previous_price: @product.previous_price, price: @product.price, valoration: @product.valoration } }
+    patch product_url(@product), params: { product: { available_size: @product.available_size, description: @product.description, discount: @product.discount, img_path: @product.img_path, name: @product.name, number_of_valorations: @product.number_of_valorations, previous_price: @product.previous_price, price: @product.price, uuid: @product.uuid, valorations: @product.valorations } }
     assert_redirected_to product_url(@product)
   end
 
