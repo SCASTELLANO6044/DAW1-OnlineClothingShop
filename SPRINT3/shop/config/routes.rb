@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   namespace :api do
     get "/categories", to: "categories#index"
   end
+
+  namespace :api do
+    get "/products", to: "products#index"
+  end
 end
