@@ -15,6 +15,7 @@ class ProductsTest < ApplicationSystemTestCase
     click_on "New product"
 
     fill_in "Available size", with: @product.available_size
+    fill_in "Category", with: @product.category_id
     fill_in "Description", with: @product.description
     fill_in "Discount", with: @product.discount
     fill_in "Img path", with: @product.img_path
@@ -22,7 +23,6 @@ class ProductsTest < ApplicationSystemTestCase
     fill_in "Number of valorations", with: @product.number_of_valorations
     fill_in "Previous price", with: @product.previous_price
     fill_in "Price", with: @product.price
-    fill_in "Uuid", with: @product.uuid
     fill_in "Valorations", with: @product.valorations
     click_on "Create Product"
 
@@ -35,6 +35,7 @@ class ProductsTest < ApplicationSystemTestCase
     click_on "Edit this product", match: :first
 
     fill_in "Available size", with: @product.available_size
+    fill_in "Category", with: @product.category_id
     fill_in "Description", with: @product.description
     fill_in "Discount", with: @product.discount
     fill_in "Img path", with: @product.img_path
@@ -42,7 +43,6 @@ class ProductsTest < ApplicationSystemTestCase
     fill_in "Number of valorations", with: @product.number_of_valorations
     fill_in "Previous price", with: @product.previous_price
     fill_in "Price", with: @product.price
-    fill_in "Uuid", with: @product.uuid
     fill_in "Valorations", with: @product.valorations
     click_on "Update Product"
 

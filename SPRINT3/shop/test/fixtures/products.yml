@@ -1,7 +1,6 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  uuid: 1
   name: MyString
   description: MyString
   price: 1.5
@@ -11,9 +10,9 @@ one:
   number_of_valorations: 1.5
   available_size: MyString
   img_path: MyString
+  category: one
 
 two:
-  uuid: 1
   name: MyString
   description: MyString
   price: 1.5
@@ -23,3 +22,4 @@ two:
   number_of_valorations: 1.5
   available_size: MyString
   img_path: MyString
+  category: two
