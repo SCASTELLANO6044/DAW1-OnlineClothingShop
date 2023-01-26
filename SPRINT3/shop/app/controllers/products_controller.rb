@@ -21,7 +21,7 @@ class ProductsController < ApplicationController
 
   # POST /products or /products.json
   def create
-    before_action :authenticate_user!
+    # before_action :authenticate_user!
     @product = Product.new(product_params)
 
     respond_to do |format|
