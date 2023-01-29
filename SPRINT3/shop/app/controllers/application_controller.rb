@@ -1,4 +1,7 @@
 class ApplicationController < ActionController::API
+    require_relative '../../lib/json_web_token.rb'
+    include JsonWebToken
+    
     def not_found
         render json: { error: 'not_found' }
     end

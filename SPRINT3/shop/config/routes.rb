@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_products
   get 'home/index'
   resources :products
   resources :categories
