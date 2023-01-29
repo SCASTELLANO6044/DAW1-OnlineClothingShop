@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import categories from 'src/json/categories.json';
 import { CategoryDto } from './dto/category.dto';
 
@@ -10,10 +10,9 @@ import { CategoryDto } from './dto/category.dto';
 export class AppComponent {
   title = 'shop';
   allCategories: CategoryDto[];
+  search = ''
 
   constructor() {
     this.allCategories = categories;
   }
-
-  
 }

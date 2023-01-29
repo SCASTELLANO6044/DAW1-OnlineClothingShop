@@ -1,10 +1,12 @@
 export interface ProductDto {
     id: number;
     name: string;
-    previousPrice: number;
+    description: string;
+    previous_price: number;
     price: number;
-    valoration: number;
-    numberOfValorations: number;
-    availableSizes: string[];
-    imgPath: string;
+    valorations: number;
+    number_of_valorations: number;
+    available_size: string;
+    img_path: string;
+    category_id: number;
 }

@@ -114,11 +114,11 @@
     <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span
             class="bg-secondary pr-3">Categories</span></h2>
     <div class="row px-xl-5 pb-3">
-        <div class="col-lg-3 col-md-4 col-sm-6 pb-1" *ngFor="let category of allCategories">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1" *ngFor="let category of categories">
             <a class="text-decoration-none">
                 <div class="cat-item d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" [src]="category.products[0].imgPath" alt="">
+                        <img class="img-fluid" [src]="products[0].img_path" alt="">
                     </div>
                     <div class="flex-fill pl-3" id="category">
                         <h6>{{category.name | titlecase}}</h6>
@@ -137,10 +137,10 @@
     <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Featured
             Products</span></h2>
     <div class="row px-xl-5">
-        <div class="col-lg-3 col-md-4 col-sm-6 pb-1" *ngFor="let category of allCategories; let i = index">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1" *ngFor="let product of products;">
             <div class="product-item bg-light mb-4">
                 <div class="product-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" [src]="category.products[i].imgPath" alt="">
+                    <img class="img-fluid w-100" [src]="product.img_path" alt="">
                     <div class="product-action">
                         <a class="btn btn-outline-dark btn-square"><i class="fa fa-shopping-cart"></i></a>
                         <a class="btn btn-outline-dark btn-square"><i class="far fa-heart"></i></a>
@@ -149,17 +149,17 @@
                 </div>
                 <div class="text-center py-4">
                     <a class="h6 text-decoration-none text-truncate"
-                        [routerLink]="['/shop', category.name, category.products[i].id]">{{category.products[i].name}}</a>
+                        [routerLink]="['/detail', product.id]">{{product.name}}</a>
                     <div class="d-flex align-items-center justify-content-center mt-2">
-                        <h5>{{category.products[i].price}}$</h5>
+                        <h5>{{product.price}}$</h5>
                         <h6 class="text-muted ml-2"><del
-                                *ngIf="category.products[i].previousPrice">{{category.products[i].previousPrice}}$</del>
+                                *ngIf="product.previous_price">{{product.previous_price}}$</del>
                         </h6>
                     </div>
                     <div class="d-flex align-items-center justify-content-center mb-1">
                         <small class="fa fa-star text-primary mr-1"
-                            *ngFor="let stars of [].constructor(category.products[i].valoration)"></small>
-                        <small>({{category.products[i].numberOfValorations}})</small>
+                            *ngFor="let stars of [].constructor(product.valorations)"></small>
+                        <small>({{product.number_of_valorations}})</small>
                     </div>
                 </div>
             </div>
@@ -202,10 +202,10 @@
     <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Recent
             Products</span></h2>
     <div class="row px-xl-5">
-        <div class="col-lg-3 col-md-4 col-sm-6 pb-1" *ngFor="let category of allCategories; let i = index">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1" *ngFor="let product of products">
             <div class="product-item bg-light mb-4">
                 <div class="product-img position-relative overflow-hidden">
-                    <img class="img-fluid w-100" [src]="category.products[i].imgPath" alt="">
+                    <img class="img-fluid w-100" [src]="product.img_path" alt="">
                     <div class="product-action">
                         <a class="btn btn-outline-dark btn-square"><i class="fa fa-shopping-cart"></i></a>
                         <a class="btn btn-outline-dark btn-square"><i class="far fa-heart"></i></a>
@@ -214,17 +214,17 @@
                 </div>
                 <div class="text-center py-4">
                     <a class="h6 text-decoration-none text-truncate"
-                        [routerLink]="['/shop', category.name, category.products[i].id]">{{category.products[i].name}}</a>
+                        [routerLink]="['/detail', product.id]">{{product.name}}</a>
                     <div class="d-flex align-items-center justify-content-center mt-2">
-                        <h5>{{category.products[i].price}}$</h5>
+                        <h5>{{product.price}}$</h5>
                         <h6 class="text-muted ml-2"><del
-                                *ngIf="category.products[i].previousPrice">{{category.products[i].previousPrice}}$</del>
+                                *ngIf="product.previous_price">{{product.previous_price}}$</del>
                         </h6>
                     </div>
                     <div class="d-flex align-items-center justify-content-center mb-1">
                         <small class="fa fa-star text-primary mr-1"
-                            *ngFor="let stars of [].constructor(category.products[i].valoration)"></small>
-                        <small>({{category.products[i].numberOfValorations}})</small>
+                            *ngFor="let stars of [].constructor(product.valorations)"></small>
+                        <small>({{product.number_of_valorations}})</small>
                     </div>
                 </div>
             </div>

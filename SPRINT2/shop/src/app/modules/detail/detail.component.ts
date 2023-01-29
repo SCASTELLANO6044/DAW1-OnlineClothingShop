@@ -1,8 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { CategoryDto } from 'src/app/dto/category.dto';
 import { ProductDto } from 'src/app/dto/product.dto';
-import categories from 'src/json/categories.json';
 
 @Component({
   selector: 'app-detail',
@@ -10,16 +10,25 @@ import categories from 'src/json/categories.json';
   styleUrls: ['./detail.component.css']
 })
 export class DetailComponent implements OnInit {
-  allCategories: CategoryDto[];
+  categories: CategoryDto[];
   product: ProductDto;
-  category: string;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private http: HttpClient) { }
 
   ngOnInit() {
-    this.allCategories = categories;
     const id = this.route.snapshot.paramMap.get('id');
-    this.category = this.route.snapshot.paramMap.get('category');
-    this.product = this.allCategories.find(x => x.name === this.category)?.products.find(x => x.id === Number(id) );
+    this.http.get('http://127.0.0.1:3000/categories.json').subscribe((categories: CategoryDto[]) => {
+      this.categories = categories
+    });
+    this.http.get(`http://127.0.0.1:3000/products/${id}.json`).subscribe((product: ProductDto) => {
+      this.product = product
+    });
+  }
+
+  getCategoryName() {
+    const category = this.categories.find((category) => {
+      return category.id === this.product.category_id
+    })
+    return category.name
   }
 }

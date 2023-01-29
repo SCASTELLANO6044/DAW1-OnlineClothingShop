@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule} from '@angular/common/http'
 import { AppComponent } from './app.component';
 import { HomeComponent } from './modules/home/home.component';
 import { ShopComponent } from './modules/shop/shop.component';
@@ -9,6 +9,7 @@ import { ContactComponent } from './modules/contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ShoppingCartComponent } from './modules/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './modules/checkout/checkout.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { CheckoutComponent } from './modules/checkout/checkout.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
