@@ -13,6 +13,12 @@ class ProductsController < ApplicationController
     render json: @product
   end
 
+  def search
+    @parameter = params[:name]
+    @products = Product.where("name like ?", "%#{@parameter}%")
+    render json: @products
+  end
+
   # POST /products
   def create
     @product = Product.new(product_params)

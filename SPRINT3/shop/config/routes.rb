@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :user_products
   get 'home/index'
+  get '/search', to: "products#search"
   resources :products
   resources :categories
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
