@@ -6,43 +6,33 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-    get categories_url
-    assert_response :success
-  end
-
-  test "should get new" do
-    get new_category_url
+    get categories_url, as: :json
     assert_response :success
   end
 
   test "should create category" do
     assert_difference("Category.count") do
-      post categories_url, params: { category: { name: @category.name } }
+      post categories_url, params: { category: { name: @category.name } }, as: :json
     end
 
-    assert_redirected_to category_url(Category.last)
+    assert_response :created
   end
 
   test "should show category" do
-    get category_url(@category)
-    assert_response :success
-  end
-
-  test "should get edit" do
-    get edit_category_url(@category)
+    get category_url(@category), as: :json
     assert_response :success
   end
 
   test "should update category" do
-    patch category_url(@category), params: { category: { name: @category.name } }
-    assert_redirected_to category_url(@category)
+    patch category_url(@category), params: { category: { name: @category.name } }, as: :json
+    assert_response :success
   end
 
   test "should destroy category" do
     assert_difference("Category.count", -1) do
-      delete category_url(@category)
+      delete category_url(@category), as: :json
     end
 
-    assert_redirected_to categories_url
+    assert_response :no_content
   end
 end

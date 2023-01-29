@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  # devise_for :users
-  #get 'home/index'
+  get 'home/index'
   resources :products
   resources :categories
-  resources :session, only: [:create, :destroy]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
+  resources :users, param: :_username
   # Defines the root path route ("/")
-  root "home#index"
+  # root "articles#index"
+  post '/auth/login', to: 'authentication#login'
+  get '/*a', to: 'application#not_found'
 end
