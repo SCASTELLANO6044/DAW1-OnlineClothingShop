@@ -1,4 +1,6 @@
 class UserProductsController < ApplicationController
+
+  before_action :authorize_request
   before_action :set_user_product, only: %i[ show update destroy ]
 
   # GET /user_products
